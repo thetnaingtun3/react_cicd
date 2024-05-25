@@ -42,7 +42,7 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: "1.0" # Specify the Ruby version you need
+          ruby-version: "2.6" # Specify the Ruby version you need
 
       - name: Install Bundler
         run: gem install bundler
