@@ -1,10 +1,8 @@
 {
-  
- "name": "cicd_react",
+  "name": "cicd_react",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://thetnaingtun3.github.io/cicd_react",
-
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +15,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "tailwindcss": "^2.0.2",
+    "tailwindcss": "^3.4.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
