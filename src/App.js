@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class Home extends React.Component{
+  
+  render(){
+    return(
+      <React.Fragment>
+        <div className="flex justify-center">
+          <div className="md:w-1/2 bg-gray-900 rounded-lg p-5 m-10">
+            <div className="text-center">
+              <p className="text-l md:text-2xl text-white">Real Time Tweet Fetcher  - [WIP]</p>
+            </div>
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  }
 }
-
-export default App;
